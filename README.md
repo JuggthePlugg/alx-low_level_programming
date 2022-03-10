@@ -1,1 +1,1 @@
-This repo involves the introduction of C
+Introduction to C Programming language
