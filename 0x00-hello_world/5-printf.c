@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - prints the phrase
- * Return - 0
+ * main - prints the message by printf
+ * 
+ * Return: Always 0 (Success)
  */
 
-int main(void) /* Prints the phrase*/
+int main(void)
 {
 printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
