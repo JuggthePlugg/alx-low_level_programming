@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
+/* more headers goes there */
 #include <stdio.h>
-
-/** 
+/**
  * main - function
- * Description: Takes last number, checks it and prints if >5, is 0, is <6 but >0
+ * Description :Take last number of n
+ * Then checks and prints it if it is > 5, is zero, < 6 but > 0
  * Return: 0
- */
+*/
 int main(void)
 {
 	int n;
@@ -16,7 +17,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	digit = n % 10;
 
-
+	/* your code goes there */
 	if (digit > 5)
 		printf("Last digit of %i is %i and is greater than 5\n", n, digit);
 	else if (digit == 0)
