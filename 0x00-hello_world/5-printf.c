@@ -2,7 +2,6 @@
 
 /**
  * main - prints the message by printf
- * 
  * Return: Always 0 (Success)
  */
 
