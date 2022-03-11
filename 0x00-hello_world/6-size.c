@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /*
- *main - prints the size of various types
- *Return: 0 if exited correctly
+ * main - prints the size of various types using printf
+ * Return: 0 if exited correctly
  *
  */
 int main(void)
