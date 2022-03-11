@@ -2,19 +2,19 @@
 #include <stdlib.h>
 
 /**
- * main - function 
+ * main - function
  * Description: Prints letters of the alphabet in lowercase
  * Return: 0
  */
 
-int main()
+int main(void)
 {
 	int i;
 
-	for(i = 'a' ; i <= 'z' ; i++)
+	for (i = 'a' ; i <= 'z' ; i++)
 	{
 	putchar(i);
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
