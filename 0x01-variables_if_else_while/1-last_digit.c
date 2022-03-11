@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
-#include <sdio.h>
+#include <stdio.h>
 /** 
  * main - function
  * Description: The program prints a random number, its last digit and if it is greater than five, equal to zero or less than 6 and not 0
