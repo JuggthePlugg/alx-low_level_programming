@@ -3,7 +3,7 @@
 
 /**
  * main - function
- * Description: Prints all base 16 numbers in lower case
+ * Description: Prints base 16 in lowercase
  * Return: 0
  */
 
@@ -16,7 +16,7 @@ int main(void)
 	{
 	putchar(i);
 	}
-	for (j ='a'; j <= 'f'; j++)
+	for (j = 'a'; j <= 'f'; j++)
 	{
 	putchar(j);
 	}
