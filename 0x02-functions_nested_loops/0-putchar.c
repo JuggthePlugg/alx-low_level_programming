@@ -1,13 +1,12 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - function
- * Description: print char via putchar
- * Return: 0
- */
+* main - function
+* Description: prints putchar
+* Return: 0
+*/
 int main(void)
 {
-	char c[9] = "_putchar";
+char c[9] = "_putchar";
 	int i = 0;
 
 	while (i < 8)
@@ -16,5 +15,5 @@ int main(void)
 		i++;
 	}
 	_putchar ('\n');
-	return (0);
+return (0);
 }
