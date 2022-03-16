@@ -1,1 +1,1 @@
-This directory contains functions and nested loops
+Directory contains functions and nested loops
