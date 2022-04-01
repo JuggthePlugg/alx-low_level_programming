@@ -1,11 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- * main - function that prints the programs name
- * @argc: contains the arguments counts
- * @argv: has the argument values
+ * main - function
+ * @argc: contains argument count
+ * @argv: contains argument values
  * Return: 0
-*/
+ */
+
 int main(int argc, char *argv[])
 {
 	(void) argc;
