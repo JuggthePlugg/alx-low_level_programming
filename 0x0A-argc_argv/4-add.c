@@ -1,35 +1,36 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "main.h"
+#include <ctype.h>
 
 /**
- * main - function
- * @argc: contains argument count
- * @argv: contains argument values
- * Return: 0
+ * main - prints all arguments received.
+ * @argc: type int argument
+ * @argv: type char argument of string.
+ * Return: if not receive 2 arg, rt error
  */
-
 int main(int argc, char *argv[])
 {
-	int i, sum, num, zro;
+	int x;
+	int y;
+	int add;
 
-	for (i = 0; i < argc; i++)
+	(void)argv;
+	add = 0;
+	if (argc > 1)
 	{
-		sum = 0;
-		if (atoi(argv[i]) > 0)
+		for (x = 1; x < argc; x++)
 		{
-			num = atoi(argv[i]);
-			sum += num;
-			printf("%d\n", sum);
-		}
-		else if (atoi(argv[i]) < 0)
-		{
-			print("not number");
-		}
-		else
-		{
-			zro = 0;
-			print("%d\n", zro);
+			for (y = 0; argv[x][y] != '\0'; y++)
+			{
+				if (!isdigit(argv[x][y]))
+				{
+					printf("Error\n");
+					return (1);
+				}
+			}
+			add += atoi(argv[x]);
 		}
 	}
+	printf("%d\n", add);
+	return (0);
 }
